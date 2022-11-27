@@ -6,8 +6,7 @@ pydeck
 streamlit_folium 
 folium
 plotly.express
-plotly.graph_objects
-plotly.figure_factory
+plotly
 random 
 time
 datetime
