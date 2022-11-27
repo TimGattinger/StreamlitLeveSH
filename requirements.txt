@@ -3,3 +3,13 @@ streamlit
 pandas
 numpy
 pydeck
+streamlit_folium 
+folium
+csv
+plotly.express
+plotly.graph_objects
+plotly.figure_factory
+random 
+time
+datetime
+itertools
