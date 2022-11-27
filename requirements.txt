@@ -7,6 +7,5 @@ streamlit_folium
 folium
 plotly.express
 plotly
-time
 datetime
 itertools
