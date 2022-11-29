@@ -44,8 +44,8 @@ folium.CircleMarker(location=[LatW,	LonW],
 
 df.apply(lambda row:folium.CircleMarker(location=[row["LatW"],
                                                   row["LonW"]], fill="black",
-                                                    popup="Pegel " + row["name"],
-                                                    tooltip="Pegel " + row["name"],
+                                                    popup="Pegel " + str(row["name"]),
+                                                    tooltip="Pegel " + str(row["name"]),
                                                     radius=2, color=row["warnSteps"]).add_to(mapx),
                                                     axis=1, )
 
