@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Info")
-st.sidebar.info('Diese App zeigt Pegelstände von Schleswig Holstein. Aktuell und historisch. Tim Gattinger 09/2022')
+st.sidebar.info('Diese App zeigt Pegelstände von Schleswig Holstein. Aktuell und historisch. Tim Gattinger 11/2022')
 st.sidebar.success('Quelle http://www.umweltdaten.landsh.de')
 st.sidebar.write("Pegel " +  st.session_state["my_input"] + " ausgewählt")
 
