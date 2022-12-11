@@ -24,7 +24,7 @@ years_months_values = [(d.year, d.month) for d in bicycle_counts.index]
 year, month = years_months_values[0]
 
 # Setup presentation widgets
-st.header("Visualisierung der Pegelstände 2020-2022 in Schleswig-Holstein")
+st.header("Visualisierung der Pegelstände 2017-2022 in Schleswig-Holstein")
 date_value = st.empty()
 month_slider = st.empty()
 animations = {"Stop": None, "Langsam": 0.4, "Mittel": 0.2, "Schnell": 0.05}
