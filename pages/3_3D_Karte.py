@@ -11,8 +11,8 @@ st.sidebar.success('Quelle http://www.umweltdaten.landsh.de')
 st.sidebar.write("Pegel " +  st.session_state["my_input"] + " ausgewählt")
 
 #bicycle_counts = pd.read_pickle("./3D_Pydeck_normalisedMQ100.pkl")
-bicycle_counts = pd.read_pickle("./3D_Pydeck_normalisedMQ100_2017_2022.pkl")
-counts_df = pd.read_pickle("./3D_Pydeck_BasicDataOBJ.pkl")
+bicycle_counts = pd.read_pickle("3D_Pydeck_normalisedMQ100_2017_2022.pkl")
+counts_df = pd.read_pickle("3D_Pydeck_BasicDataOBJ.pkl")
 
 
 # don't modify the outputs from a cached streamlit function
