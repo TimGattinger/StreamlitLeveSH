@@ -8,8 +8,8 @@ from streamlit_folium import st_folium
 import folium
 
 st.header("Pegelstände in Schleswig-Holstein")
-st.sidebar.info('Diese App zeigt Pegelstände von Schleswig-Holstein und deren statistische Auswertung. Aktuell und historisch. Tim Gattinger 12/2022')
-st.sidebar.success('Quelle http://www.umweltdaten.landsh.de')
+st.sidebar.info('Diese App zeigt Pegelstände von Schleswig-Holstein und deren statistische Auswertung. Aktuell und historisch. Tim Gattinger 01/2024')
+st.sidebar.success('Quelle https://hsi-sh.de/')
 df = pd.read_pickle("PegelMetadatenStats.pkl")
 
 
