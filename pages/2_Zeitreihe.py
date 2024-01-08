@@ -26,7 +26,8 @@ try:
     t_ID = df_f['ID'].values[0]
     ### anedern wenn online als app/Github
     #t = r"C:\Users\User\_pegel_Atom\Pegelab1900\\" + str(t_ID) + ".pkl"
-    t = r"./PegelAb1900_Test_1//" + str(t_ID) + ".pkl"
+    t = r"./Pegel_ab1900_2024//" + str(t_ID) + "_Messwerte.pkl"
+    #Pegel_ab1900_2024/110006_Messwerte.pkl
     Pegeltitle = "Pegel " + str(Ort) + ", ID: " + str(t_ID)
     df = pd.read_pickle(t)
     
