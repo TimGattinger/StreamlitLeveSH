@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.title("Info")
-st.sidebar.info('Diese App zeigt Pegelstände von Schleswig Holstein. Aktuell und historisch. Tim Gattinger 12/2022')
-st.sidebar.success('Quelle http://www.umweltdaten.landsh.de')
+st.sidebar.info('Diese App zeigt Pegelstände von Schleswig-Holstein und deren statistische Auswertung. Aktuell und historisch. Tim Gattinger 01/2024')
+st.sidebar.success('Quelle https://hsi-sh.de/')
 st.sidebar.write("Pegel " +  st.session_state["my_input"] + " ausgewählt")
 
 st.write("Diese Seite ist ein Hobbyprojekt von mir und eins meiner ersten Browser Apps. Ich hatte es mir zur Aufgabe gemacht, die Zeitreihe von den offiziellen Stellen (http://www.umweltdaten.landsh.de) automatisiert zu spiegeln und sie noch einmal auf eine andere Art darzustellen und auszuwerten.")
